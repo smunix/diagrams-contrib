@@ -89,7 +89,7 @@ test-suite turtle-tests
                        Diagrams.TwoD.Path.Turtle.Internal
 
   build-depends:       HUnit                      >= 1.2,
-                       QuickCheck                 >= 2.44,
+                       QuickCheck,
                        containers                 >= 0.3,
                        test-framework             >= 0.4,
                        test-framework-hunit       >= 0.2,
