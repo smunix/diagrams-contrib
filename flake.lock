@@ -96,6 +96,22 @@
         "type": "github"
       }
     },
+    "flake-utils_15": {
+      "locked": {
+        "lastModified": 1614513358,
+        "narHash": "sha256-LakhOx3S1dRjnh0b5Dg3mbZyH0ToC9I8Y2wKSkBaTzU=",
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "rev": "5466c5bbece17adaab2d82fae80b46e807611bf3",
+        "type": "github"
+      },
+      "original": {
+        "owner": "numtide",
+        "ref": "master",
+        "repo": "flake-utils",
+        "type": "github"
+      }
+    },
     "flake-utils_2": {
       "locked": {
         "lastModified": 1614513358,
@@ -226,11 +242,11 @@
     },
     "nixpkgs": {
       "locked": {
-        "lastModified": 1616903901,
-        "narHash": "sha256-eUhQHO3oqoHucPBpSxD1q01RMUAaEVcBcJg1ojT8Ukc=",
+        "lastModified": 1616910092,
+        "narHash": "sha256-cAM5+iHGoi4mprtYawa7iLqnu/z4H1mxt4+iIw6raks=",
         "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "eab3dcf262cc256d1945e00cc43b6844a7d895b8",
+        "rev": "3b968633e8b1dcd607e856a0040be67c91f16c21",
         "type": "github"
       },
       "original": {
@@ -254,11 +270,11 @@
     },
     "nixpkgs_11": {
       "locked": {
-        "lastModified": 1616891080,
-        "narHash": "sha256-+oz+G+QPzH17FSPz3BLVfRCZMdkWyy0EdXAmXXRqhYw=",
+        "lastModified": 1616903901,
+        "narHash": "sha256-eUhQHO3oqoHucPBpSxD1q01RMUAaEVcBcJg1ojT8Ukc=",
         "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "3a498ff0f257024fb17067ce4ab9d7b00b50230e",
+        "rev": "eab3dcf262cc256d1945e00cc43b6844a7d895b8",
         "type": "github"
       },
       "original": {
@@ -268,11 +284,11 @@
     },
     "nixpkgs_12": {
       "locked": {
-        "lastModified": 1616866564,
-        "narHash": "sha256-UnHMztF0fd4XPJlxesLgPNx2WKeHpqNtvff7USXOH4s=",
+        "lastModified": 1616891080,
+        "narHash": "sha256-+oz+G+QPzH17FSPz3BLVfRCZMdkWyy0EdXAmXXRqhYw=",
         "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "1433dad051b601261d39de1bbb63dc030018efd7",
+        "rev": "3a498ff0f257024fb17067ce4ab9d7b00b50230e",
         "type": "github"
       },
       "original": {
@@ -295,6 +311,20 @@
       }
     },
     "nixpkgs_14": {
+      "locked": {
+        "lastModified": 1616866564,
+        "narHash": "sha256-UnHMztF0fd4XPJlxesLgPNx2WKeHpqNtvff7USXOH4s=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "1433dad051b601261d39de1bbb63dc030018efd7",
+        "type": "github"
+      },
+      "original": {
+        "id": "nixpkgs",
+        "type": "indirect"
+      }
+    },
+    "nixpkgs_15": {
       "locked": {
         "lastModified": 1616866564,
         "narHash": "sha256-UnHMztF0fd4XPJlxesLgPNx2WKeHpqNtvff7USXOH4s=",
@@ -380,11 +410,11 @@
     },
     "nixpkgs_7": {
       "locked": {
-        "lastModified": 1616866564,
-        "narHash": "sha256-UnHMztF0fd4XPJlxesLgPNx2WKeHpqNtvff7USXOH4s=",
+        "lastModified": 1616903901,
+        "narHash": "sha256-eUhQHO3oqoHucPBpSxD1q01RMUAaEVcBcJg1ojT8Ukc=",
         "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "1433dad051b601261d39de1bbb63dc030018efd7",
+        "rev": "eab3dcf262cc256d1945e00cc43b6844a7d895b8",
         "type": "github"
       },
       "original": {
@@ -394,11 +424,11 @@
     },
     "nixpkgs_8": {
       "locked": {
-        "lastModified": 1616903901,
-        "narHash": "sha256-eUhQHO3oqoHucPBpSxD1q01RMUAaEVcBcJg1ojT8Ukc=",
+        "lastModified": 1616866564,
+        "narHash": "sha256-UnHMztF0fd4XPJlxesLgPNx2WKeHpqNtvff7USXOH4s=",
         "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "eab3dcf262cc256d1945e00cc43b6844a7d895b8",
+        "rev": "1433dad051b601261d39de1bbb63dc030018efd7",
         "type": "github"
       },
       "original": {
@@ -426,7 +456,7 @@
         "nixpkgs": "nixpkgs",
         "smunix-diagrams-core": "smunix-diagrams-core",
         "smunix-diagrams-lib": "smunix-diagrams-lib",
-        "smunix-diagrams-solve": "smunix-diagrams-solve",
+        "smunix-diagrams-solve": "smunix-diagrams-solve_2",
         "smunix-diagrams-svg": "smunix-diagrams-svg",
         "smunix-monoid-extras": "smunix-monoid-extras_6"
       }
@@ -475,8 +505,8 @@
     },
     "smunix-diagrams-core_3": {
       "inputs": {
-        "flake-utils": "flake-utils_11",
-        "nixpkgs": "nixpkgs_11",
+        "flake-utils": "flake-utils_12",
+        "nixpkgs": "nixpkgs_12",
         "smunix-monoid-extras": "smunix-monoid-extras_4"
       },
       "locked": {
@@ -499,14 +529,15 @@
         "flake-utils": "flake-utils_4",
         "nixpkgs": "nixpkgs_4",
         "smunix-diagrams-core": "smunix-diagrams-core_2",
+        "smunix-diagrams-solve": "smunix-diagrams-solve",
         "smunix-monoid-extras": "smunix-monoid-extras_3"
       },
       "locked": {
-        "lastModified": 1616905570,
-        "narHash": "sha256-vOIiDLokHziHYz9A8syjL65cokM8cUXq5Oxe+vCI3eU=",
+        "lastModified": 1616910197,
+        "narHash": "sha256-tSXL+iUZgSZUgUqwyJ7xSzKPJslGa75m6hhoY/Jo4FM=",
         "owner": "smunix",
         "repo": "diagrams-lib",
-        "rev": "48ed2089383a69990eb1a448b08c55af2db78982",
+        "rev": "3faece6534736632841e2f4d9a5412f23fdfeac2",
         "type": "github"
       },
       "original": {
@@ -518,8 +549,8 @@
     },
     "smunix-diagrams-lib_2": {
       "inputs": {
-        "flake-utils": "flake-utils_10",
-        "nixpkgs": "nixpkgs_10",
+        "flake-utils": "flake-utils_11",
+        "nixpkgs": "nixpkgs_11",
         "smunix-diagrams-core": "smunix-diagrams-core_3",
         "smunix-monoid-extras": "smunix-monoid-extras_5"
       },
@@ -540,8 +571,28 @@
     },
     "smunix-diagrams-solve": {
       "inputs": {
-        "flake-utils": "flake-utils_8",
-        "nixpkgs": "nixpkgs_8"
+        "flake-utils": "flake-utils_7",
+        "nixpkgs": "nixpkgs_7"
+      },
+      "locked": {
+        "lastModified": 1616905435,
+        "narHash": "sha256-fsEXB6Kc5sA82Ci8sVek48XN2Sn6HtfGUqMPGCNPSW4=",
+        "owner": "smunix",
+        "repo": "diagrams-solve",
+        "rev": "14c862a7ac928ff6d4bbb8de7411888aa95e20f1",
+        "type": "github"
+      },
+      "original": {
+        "owner": "smunix",
+        "ref": "fix.diagrams",
+        "repo": "diagrams-solve",
+        "type": "github"
+      }
+    },
+    "smunix-diagrams-solve_2": {
+      "inputs": {
+        "flake-utils": "flake-utils_9",
+        "nixpkgs": "nixpkgs_9"
       },
       "locked": {
         "lastModified": 1616905435,
@@ -560,8 +611,8 @@
     },
     "smunix-diagrams-svg": {
       "inputs": {
-        "flake-utils": "flake-utils_9",
-        "nixpkgs": "nixpkgs_9",
+        "flake-utils": "flake-utils_10",
+        "nixpkgs": "nixpkgs_10",
         "smunix-diagrams-lib": "smunix-diagrams-lib_2"
       },
       "locked": {
@@ -621,8 +672,8 @@
     },
     "smunix-monoid-extras_3": {
       "inputs": {
-        "flake-utils": "flake-utils_7",
-        "nixpkgs": "nixpkgs_7"
+        "flake-utils": "flake-utils_8",
+        "nixpkgs": "nixpkgs_8"
       },
       "locked": {
         "lastModified": 1616899059,
@@ -640,26 +691,6 @@
       }
     },
     "smunix-monoid-extras_4": {
-      "inputs": {
-        "flake-utils": "flake-utils_12",
-        "nixpkgs": "nixpkgs_12"
-      },
-      "locked": {
-        "lastModified": 1616899059,
-        "narHash": "sha256-aqP9U0QA6AwB4M6S5nVmJv/gz4vc1JELF0Z5VAFQfEc=",
-        "owner": "smunix",
-        "repo": "monoid-extras",
-        "rev": "a88490126c649b7f099ab4809ecb6930f03725fc",
-        "type": "github"
-      },
-      "original": {
-        "owner": "smunix",
-        "ref": "fix.diagrams",
-        "repo": "monoid-extras",
-        "type": "github"
-      }
-    },
-    "smunix-monoid-extras_5": {
       "inputs": {
         "flake-utils": "flake-utils_13",
         "nixpkgs": "nixpkgs_13"
@@ -679,10 +710,30 @@
         "type": "github"
       }
     },
-    "smunix-monoid-extras_6": {
+    "smunix-monoid-extras_5": {
       "inputs": {
         "flake-utils": "flake-utils_14",
         "nixpkgs": "nixpkgs_14"
+      },
+      "locked": {
+        "lastModified": 1616899059,
+        "narHash": "sha256-aqP9U0QA6AwB4M6S5nVmJv/gz4vc1JELF0Z5VAFQfEc=",
+        "owner": "smunix",
+        "repo": "monoid-extras",
+        "rev": "a88490126c649b7f099ab4809ecb6930f03725fc",
+        "type": "github"
+      },
+      "original": {
+        "owner": "smunix",
+        "ref": "fix.diagrams",
+        "repo": "monoid-extras",
+        "type": "github"
+      }
+    },
+    "smunix-monoid-extras_6": {
+      "inputs": {
+        "flake-utils": "flake-utils_15",
+        "nixpkgs": "nixpkgs_15"
       },
       "locked": {
         "lastModified": 1616899059,
